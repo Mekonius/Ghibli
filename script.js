@@ -31,7 +31,7 @@ request.onload = function () {
 
       const poster = document.createElement('img')
         poster.src = movie.image 
-        poster.style.width = "100%"
+        poster.classList.add('poster')
 
       container.appendChild(card)
       card.appendChild(h1)

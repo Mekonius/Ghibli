@@ -21,7 +21,9 @@
     flex-wrap: wrap;
   }
 
- 
+ .poster {
+    width: 100%;
+ }
   
   .card {
     margin: 1rem;
